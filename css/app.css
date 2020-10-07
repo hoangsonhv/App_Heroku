@@ -1,0 +1,20 @@
+h1{
+    /*color: rgb(12,90,0);*/
+    font-size: 30px;
+    /*color:#0000ff;*/
+    color: #333333;
+    font-weight:400;/* do dam nhat cua chu*/
+    line-height: 50px; /* do cao cua dong chu*/
+    text-decoration:underline; /* gach chan*/
+    /*text-transform: uppercase;  viet hoa */
+    text-transform: capitalize; /*viet hoa chu cai dau*/
+}
+p{
+    text-align: justify; /* can le*/  /* can deu la justify*/
+    width: 700px;
+}
+body{
+    background-image: url('../img/anh2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
