@@ -1,1 +1,1 @@
-<?php include("BTVN.php");
+<?php include("BTVN.html");
