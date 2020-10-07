@@ -12,6 +12,7 @@ h1{
 p{
     text-align: justify; /* can le*/  /* can deu la justify*/
     width: 700px;
+    text-shadow: -5px -5px 3px red; /* do nhoe cua bong chu*/
 }
 body{
     background-image: url('../img/anh2.jpg');
