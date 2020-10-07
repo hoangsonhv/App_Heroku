@@ -1,1 +1,1 @@
-<?php include("index.php");
+<?php include("Luyen Tap.php");
