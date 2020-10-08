@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="013275fe-2ca9-4c65-a534-653d7e8a3a78" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignment2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/Assignment2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +65,7 @@
       <workItem from="1602036585502" duration="11427000" />
       <workItem from="1602052359559" duration="7346000" />
       <workItem from="1602075673222" duration="2571000" />
-      <workItem from="1602120618922" duration="10093000" />
+      <workItem from="1602120618922" duration="10119000" />
     </task>
     <task id="LOCAL-00001" summary="Update baitap">
       <created>1602036935868</created>
@@ -182,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602059647970</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Update baitap">
+      <created>1602130809346</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1602130809346</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,10 +209,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="537" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1602045981576" />
-    <state x="473" y="0" key="CommitChangelistDialog2" timestamp="1602059646997">
+    <state x="473" y="0" key="CommitChangelistDialog2" timestamp="1602130808104">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="473" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1602059646997" />
+    <state x="473" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1602130808104" />
     <state x="147" y="65" key="DiffContextDialog" timestamp="1602041182270">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -217,10 +221,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="254" height="198" key="ShowFilterAction_Filter_Popup/0.0.1536.824@0.0.1536.824" timestamp="1601730538403" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1602059654008">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1602130815076">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602059654008" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602130815076" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1601950017696">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
