@@ -1,15 +1,16 @@
 body{
-    width: 800px;
+    width: 1000px;
     margin: 50px 25%;
 }
 img{
     float:left top;
-    width: 120px;
+    width: 140px;
+    margin-bottom: -10px;
 }
 .a1{
     float: right;
     text-align: right;
-    margin-top: 35px;
+    margin-top: 40px;
 }
 .i1{
     text-decoration: underline;
