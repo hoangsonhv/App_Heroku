@@ -1,5 +1,5 @@
 body{
-    width: 1000px;
+    width: 800px;
     margin: 50px 25%;
 }
 img{
@@ -10,7 +10,7 @@ img{
 .a1{
     float: right;
     text-align: right;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 .i1{
     text-decoration: underline;
