@@ -1,13 +1,12 @@
 body{
     background-image: url('../img/laptop.jpg');
     background-repeat: no-repeat;
-    background-size: 110%;
+    background-size: 120%;
 }
 #full{
     width: 1000px;
-    margin: auto;
-    height: 1000px;
-    margin-top: 50px;
+    margin: 50px auto 0px;
+    max-height: 1100px;
 }
 #header{
     background-color: #a7c0c8;
@@ -26,7 +25,7 @@ body{
     font-size: 15px;
 }
 #main{
-    height: 860px;
+    height: 900px;
     background-color: whitesmoke;
     margin-top: -20px;
 }
@@ -58,9 +57,9 @@ body{
 }
 #left{
     background-color: #dfe5e9;
-    height: 1040px;
+    height: 1080px;
     width: 300px;
-    margin-top: -1040px;
+    margin-top: -1080px;
     margin-left: 50px;
     text-align: center;
     float: none;
