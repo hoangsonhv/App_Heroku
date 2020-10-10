@@ -5,16 +5,16 @@ body{
 }
 #full{
     width: 1000px;
-    margin: 50px auto 0px;
+    margin: auto ;
     max-height: 1100px;
 }
 #header{
     background-color: #a7c0c8;
-    max-height: 150px;
+    max-height: 15%;
     text-align: center;
     padding-top: 60px;
     padding-left: 160px;
-    padding-bottom: 70px;
+    padding-bottom: 50px;
 }
 #header span{
     font-size: 45px;
@@ -27,7 +27,6 @@ body{
 #main{
     height: 900px;
     background-color: whitesmoke;
-    margin-top: -20px;
 }
 #main .profile{
     font-size: 25px;
@@ -56,13 +55,13 @@ body{
     margin-top: -15px;
 }
 #left{
-    background-color: #dfe5e9;
-    height: 1080px;
-    width: 300px;
-    margin-top: -1080px;
-    margin-left: 50px;
-    text-align: center;
     float: none;
+    width: 300px;
+    height: 1060px;
+    margin-top: -1080px;
+    background-color: #dfe5e9;
+    margin-left: 50px;
+    padding-bottom: 20px;;
 }
 #left .left-1{
     width: 150px;
