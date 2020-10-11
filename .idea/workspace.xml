@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="013275fe-2ca9-4c65-a534-653d7e8a3a78" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Labs3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/labs3-1.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/labs3-1.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,14 +78,7 @@
       <workItem from="1602205391161" duration="8461000" />
       <workItem from="1602330176086" duration="19426000" />
       <workItem from="1602351317678" duration="3063000" />
-      <workItem from="1602391423928" duration="15538000" />
-    </task>
-    <task id="LOCAL-00009" summary="Update baitap">
-      <created>1602040936195</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1602040936195</updated>
+      <workItem from="1602391423928" duration="19718000" />
     </task>
     <task id="LOCAL-00010" summary="Update baitap">
       <created>1602041090480</created>
@@ -422,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602405137780</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Update background">
+      <created>1602407506174</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1602407506174</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -432,7 +433,8 @@
     <MESSAGE value="Update baitap" />
     <MESSAGE value="u" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="Update background" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update background" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601773425405">
@@ -447,10 +449,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="537" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1602045981576" />
-    <state x="582" y="0" key="CommitChangelistDialog2" timestamp="1602405137073">
+    <state x="582" y="0" key="CommitChangelistDialog2" timestamp="1602407505185">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="582" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1602405137073" />
+    <state x="582" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1602407505185" />
     <state x="147" y="65" key="DiffContextDialog" timestamp="1602041182270">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -475,10 +477,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="254" height="198" key="ShowFilterAction_Filter_Popup/0.0.1536.824@0.0.1536.824" timestamp="1601730538403" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1602405141673">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1602407514220">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602405141673" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602407514220" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1601950017696">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
