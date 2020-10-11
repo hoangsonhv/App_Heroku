@@ -1,18 +1,17 @@
 body{
     background-image: url('../img/laptop.jpg');
     background-repeat: no-repeat;
-    background-size: 100%;
-    float: left;
+    background-size: 120%;
+
 }
 #full{
     width: 70%;
     margin: 20px auto 0px;
-    max-height: 1000px;
-
+    max-height: 900px;
 }
 #header{
     background-color: #a7c0c8;
-    height: 10%;
+    height: 100px;
     text-align: center;
     padding-top: 70px;
     padding-left: 160px;
@@ -27,7 +26,7 @@ body{
     font-size: 15px;
 }
 #main{
-    height:90%;
+    height:800px;
     background-color: whitesmoke;
 }
 #main .profile{
@@ -58,10 +57,10 @@ body{
     margin-top: -15px;
 }
 #left{
-    width: 20%;
-    margin-top: -960px;
+    width: 300px;
+    height: 980px;
+    margin-top: -860px;
     margin-left: 280px;
-    padding-bottom: 30px;
     background-color: #dfe5e9;
 }
 #left .left-1{
