@@ -77,14 +77,7 @@
       <workItem from="1602205391161" duration="8461000" />
       <workItem from="1602330176086" duration="19426000" />
       <workItem from="1602351317678" duration="3063000" />
-      <workItem from="1602391423928" duration="28617000" />
-    </task>
-    <task id="LOCAL-00012" summary="Update baitap">
-      <created>1602044724121</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1602044724121</updated>
+      <workItem from="1602391423928" duration="29220000" />
     </task>
     <task id="LOCAL-00013" summary="Update baitap">
       <created>1602044820317</created>
@@ -422,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602432057516</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Update background">
+      <created>1602432433205</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1602432433205</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -448,10 +448,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="537" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1602045981576" />
-    <state x="582" y="0" key="CommitChangelistDialog2" timestamp="1602432056482">
+    <state x="582" y="0" key="CommitChangelistDialog2" timestamp="1602432432173">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="582" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1602432056482" />
+    <state x="582" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1602432432173" />
     <state x="147" y="65" key="DiffContextDialog" timestamp="1602041182270">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -476,10 +476,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="254" height="198" key="ShowFilterAction_Filter_Popup/0.0.1536.824@0.0.1536.824" timestamp="1601730538403" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1602432062479">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1602432438683">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602432062479" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602432438683" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1601950017696">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
