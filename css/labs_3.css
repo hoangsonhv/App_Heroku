@@ -1,56 +1,40 @@
 body{
     background-image: url('../img/laptop.jpg');
     background-size: cover;
-    max-width: 100%;
+    width: 100%;
     margin: auto;
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
 }
 #MAIN{
-    max-width: 70%;
-    margin-top: 5%;
+    width: 1000px;
     margin-left: 15%;
     margin-right: 15%;
     display: block;
-    height: 100%;
+    height: 1000px;
 }
 #header{
     background-color: #a7c0c8;
-    max-height: 30%;
-    padding-bottom: 50px;
-    padding-top: 70px;
-    max-width: 100%;
-    margin: auto;
+    height: 150px;
 }
 #header .header1{
-    max-width: 30%;
-    margin-left: 5%;
-}
-#header .header2{
-    max-width: 65%;
     margin-left: 35%;
 }
-#header .header2 .info{
-    margin-left: 5%;
-}
-#header span{
+#header .h0{
     font-size: 45px;
     letter-spacing: 4px;
+    padding-top: 40px;
+    margin-top: 50px;
 }
-#header p{
+#header .h1{
     letter-spacing: 4px;
     font-size: 15px;
-}
-#content{
-    max-width: 100%;
-    height: 100%;
-    background-color: whitesmoke;
+    margin-top: -30px;
 }
 #main{
     height:850px;
     background-color: whitesmoke;
-    width: 65%;
-    margin-left: 35%;
+    width: 100%;
 }
 #main .profile{
     font-size: 25px;
@@ -61,7 +45,7 @@ body{
     text-align: justify;
     padding-top: 20px;
     border-bottom: 2px solid black;
-    margin-left: 5%;
+    margin-left: 35%;
     padding-bottom: 15px;
 }
 #main .PR{
@@ -72,7 +56,7 @@ body{
     margin-right: 20px;
     text-align: justify;
     padding-top: 20px;
-    margin-left: 5%;
+    margin-left: 35%;
     padding-bottom: 15px;
 }
 
@@ -80,11 +64,11 @@ body{
     margin-top: -15px;
 }
 #left{
-    width: 30%;
-    height: 1040px;
-    margin-top: -1040px;
+    width: 300px;
+    height: 980px;
+    margin-top: -98%;
     background-color: #dfe5e9;
-    margin-left: 5%;
+    margin-left: 3%;
 }
 #left .left-1{
     width: 150px;
