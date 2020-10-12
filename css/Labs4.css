@@ -28,7 +28,7 @@ body{
     float: left;
     margin-left: 4%;
     margin-top: 50px;
-    border: 1px solid white;
+    border: 1px solid #ffffff;
     background-color: white;
 }
 #Main  .anh1{
@@ -40,6 +40,9 @@ body{
     height: 35%;
     width: 100%;
     margin-bottom: -10px;
+}
+#Main .font p{
+    font-size: 14px;
 }
 #Main .bot{
     width: 100%;
