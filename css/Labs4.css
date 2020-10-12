@@ -1,0 +1,52 @@
+body{
+    width: 1000px;
+    height: 950px;
+    margin: auto;
+}
+#Main{
+    max-width: 100%;
+    height: 100%;
+    margin: auto;
+    background-color: whitesmoke;
+    padding-top: 15px;
+}
+#Main .headertop{
+    width: 960px;
+    height: 6%;
+    background-color: white;
+    margin-left: 20px;
+    border: 1px solid white;
+}
+#Main .imgg{
+    width: 100%;
+    height: 94%;
+}
+#Main .imgg .anh{
+    text-align: center;
+    max-height: 400px;
+    width: 200px;
+    float: left;
+    margin-left: 4%;
+    margin-top: 50px;
+    border: 1px solid white;
+    background-color: white;
+}
+#Main  .anh1{
+    width: 100%;
+    height: 50%;
+
+}
+#Main .font{
+    height: 35%;
+    width: 100%;
+    margin-bottom: -10px;
+}
+#Main .bot{
+    width: 100%;
+    height: 15%;
+    background-color: black;
+    line-height: 35px;
+}
+#Main .bot h3{
+    color: white;
+}
