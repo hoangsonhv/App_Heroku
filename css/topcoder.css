@@ -1,0 +1,196 @@
+body{
+    width: 1400px;
+    height: 500px;
+    margin: auto;
+    background-color: #777777;
+}
+#AA{
+    width: 1400px;
+    height: 500px;
+    margin: auto;
+    background-color: white;
+}
+.PP{
+    width: 40%;
+    height: 10%;
+    text-align: center;
+    margin: auto;
+}
+#AA .Ph1{
+    font-size: 30px;
+    border-bottom: 1px solid beige;
+    padding-bottom: 15px;
+    padding-top: 25px;
+}
+#AA .Ph2{
+    width: 10%;
+    margin: -2px auto 0px;
+    border-bottom: 3px solid black;
+}
+.items{
+    width: 100%;
+    height: 90%;
+    margin-top: 50px;
+}
+
+.tainghe{
+    width: 250px;
+    height: 350px;
+    background-color: #dfe5e9;
+    border: 1px solid #dfe5e9;
+    box-shadow: 0px 5px 5px #dfe5e9;
+    border-radius: 8px;
+    float: left;
+    margin-left: 22px;
+    cursor: pointer;
+}
+.tainghe:hover .itemsicon{
+    opacity: 1;
+}
+.items .itemsicon{
+    width: 30px;
+    height: 60px;
+    margin-top: 50px;
+    margin-right: 1px;
+    float: right;
+    opacity: 0;
+}
+.items .icon1{
+    width: 20px;
+    height: 20px;
+    transition: 2s;
+}
+.items .icon2{
+    width: 20px;
+    height: 20px;
+    transition: 2s;
+}
+.items .icon3{
+    width: 20px;
+    height: 20px;
+    transition: 1s;
+}
+.icon1:hover{
+    animation: icon1 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes icon1{
+    0% {
+        transform: scale(1.2);
+    }
+    25%{
+        transform: scale(0.8);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    75%{
+        transform: scale(0.8);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
+.icon2:hover{
+    animation: icon1 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes icon2{
+    0% {
+        transform: scale(1.2);
+    }
+    25%{
+        transform: scale(0.8);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    75%{
+        transform: scale(0.8);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
+.icon3:hover{
+    animation: icon1 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes icon3{
+    0% {
+        transform: scale(1.2);
+    }
+    25%{
+        transform: scale(0.8);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    75%{
+        transform: scale(0.8);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
+.items .itemsicon .bibi{
+    cursor: pointer;
+}
+.tainghe .tainghe1{
+    height: 55%;
+    z-index: 10;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.tainghe .tainghe1 .img {
+    width: 200px;
+    height: 100%;
+}
+.tainghe .tainghe1 .img img{
+    margin-top: -85px;
+}
+.tainghe .tainghe2{
+    height: 45%;
+    padding-left: 20px;
+    background-color: white;
+    border-radius: 0px 0px 8px 8px;
+}
+.tainghe2 .text{
+    height: 30%;
+    padding-top: 4px;
+    background-color: white;
+}
+.tainghe2 .text .Headphones p{
+    margin-top: 10px;
+}
+.tainghe2 .Headphones h2{
+    margin-top: -15px;
+}
+.tainghe2 .text .maticon{
+    float: left;
+    margin-top: -15px;
+}
+.tainghe2 .money{
+    clear: left;
+    height: 30px;
+    position: relative;
+    padding-top: 1px;
+    background-color: white;
+}
+.tainghe2 .money .money1{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: orangered;
+    position: absolute;
+    right: 20px;
+    top: 5px;
+}
+.tainghe2 .money .money1 .giohang{
+    margin: 17px;
+    color: white;
+}
+.tainghe2 .money h3{
+    margin-top: 20px;
+}
