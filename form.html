@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+<body>
+    <div class="suvery">
+
+        <!--Form Điền thông tin-->
+
+        <form action="#" method="son">
+            <!-- minlength và maxlength là giới hạn kí  tự-->
+            <!-- min max là giới hạn số-->
+            <!-- pattern là kiểu nhập vào bắt buộc-->
+            <!--required là bắt buộc nhập  -->
+            <!--checked là mặc định chọn  -->
+                <input name="full_name" type="text" placeholder="Full name"/>
+                <input name="Email" type="Email" placeholder="Email"/>
+                <input name="Password" type="Password" placeholder="Password"/>
+                <input name="Age" type="number" placeholder="Age"/>
+                <input name="Brithday" type="date" placeholder="Brithday"/>
+                <input name="Mycolor" type="color" placeholder="Mycolor"/>
+
+                <input name="Price_range" type="range" min="0" max="100"/>
+
+            <!--Tích (Nút Tròn Xoe)-->
+
+            <p>Giới Tính</p>
+            <label><input name="sex" value="nam" checked type="radio" />nam</label>
+            <label><input name="sex" value="nữ" type="radio"/>nữ</label>
+            <label><input name="sex" value="khac" type="radio"/>Khác</label>
+            <p>
+                <label><input required type="checkbox"  checked name="confirm" >Tôi đã đọc và chấp chận điều khoản.!</label>
+            </p>
+
+            <!--lựa chon-->
+
+            <p>
+                <select name="city">
+                    <option value="HN">Hà Nội</option>
+                    <option value="CN">Cần Thơ</option>
+                    <option value="ĐN">Đà Nẵng</option>
+                    <option value="HP">Hải Phòng</option>
+                    <option value="BG">Bắc Giang</option>
+                </select>
+            </p>
+
+            <p>Nhận Xét</p>
+            <textarea name="Comment" rows="10" placeholder="Viết nhận xét của bạn.."></textarea><br/>
+
+            <!--lưu lại-->
+
+            <button type="submit">Gửi đi</button>
+            <button type="button">Button</button>
+            <button type="reset">Reset</button>
+        </form>
+    </div>
+</body>
+</html>
