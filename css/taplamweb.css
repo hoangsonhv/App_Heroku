@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    float: left;
+    font-family: 'Roboto', sans-serif;
+}
+#top{
+    height: 32px;
+    background-color: black;
+}
+#top p{
+    color: white;
+    font-size: 15px;
+    padding-top: 8px;
+    margin-left: 205px;
+}
+p a{
+    text-decoration: none;
+    color: white;
+}
+#search{
+    float: left;
+    width: 100%;
+    height: 135px;
+    background-color: white;
+}
+.TH{
+    float: left;
+    width: 300px;
+    height: 100px;
+    margin-left: 210px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.table{
+    float: left;
+    width: 800px;
+    height: 50px;
+    margin-top: 55px;
+}
+.danhmuc{
+    float: left;
+}
+#search .danhmuc:hover{
+    background-color: #18AD1F;
+}
+.danhmuc1:focus{
+    outline: none;
+}
+form .danhmuc1{
+    width: 150px;
+    height: 35px;
+    font-size: 15px;
+    cursor: pointer;
+    border-color: #dfe5e9;
+}
+.danhmuc1 .c1{
+    padding: 3px 15px;
+}
+.c1:hover{
+    background-color: #18AD1F;
+}
+.mua1{
+    float: left;
+    border: none;
+    width: 345px;
+    height: 35px;
+    margin-left: 10px;
+}
+.mua1 input{
+    border: none;
+    width: 345px;
+    height: 31px;
+}
+.mua1 input:focus{
+    outline: none;
+}
+.mua{
+    width: 400px;
+    height: 33px;
+    float: left;
+    border: 1px solid #dfe5e9;
+}
+.muaicon{
+    float: right;
+    width: 40px;
+    height: 23px;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 3px;
+    background-color:  #18AD1F;
+    cursor: pointer;
+}
+.hangmua{
+    float: left;
+    width: 200px;
+    height: 35px;
+    margin-left: 40px;
+    text-align: center;
+    border: 1px solid #dfe5e9;
+    cursor: pointer;
+}
+.giohangmua{
+    float: right;
+    width: 40px;
+    height: 25px;
+    background-color: #18AD1F;
+    padding-top: 10px;
+}
+#hitder{
+    font-size: 20px;
+    width: 100%;
+    float: left;
+    height: 60px;
+    background-color: #18AD1F;
+}
+#hitder ul{
+    list-style-type: none;
+    padding-left: 205px;
+    margin-top: 0px;
+}
+#hitder li{
+    text-align: center;
+    height: 42px;
+    color: white;
+    float: left;
+    margin-left: 20px;
+    font-variant: small-caps;
+    padding-top: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+#hitder li:hover{
+    background-color: #66CC33;
+}
+#main{
+    width: 100%;
+    height: 800px;
+    float: left;
+    position: relative;
+}
+img{
+    width: 100%;
+}
+.cac-slide{
+    float: left;
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+    position: absolute;
+}
+.slide{
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    opacity: 0;
+    visibility: hidden;
+}
+.slide.active{
+    opacity: 1;
+    visibility: visible;
+}
+.nut-slide{
+    float: left;
+}
+.nut-slide span{
+    color: black;
+    font-size: 50px;
+}
+.nut-slide span#prev{
+    position: absolute;
+    top:45%;
+    left: 3%;
+    z-index: 10;
+    cursor: pointer;
+}
+.nut-slide span#next{
+    clear: left;
+    position: absolute;
+    top: 45%;
+    right: 3%;
+    z-index: 10;
+    cursor: pointer;
+}
+.nut-slide ul{
+    position: absolute;
+    z-index: 10;
+    width: 100px;
+    left: 48%;
+    bottom: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.nut-slide ul li{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    list-style: none;
+    opacity: 0.6;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 10;
+}
