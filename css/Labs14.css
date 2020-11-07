@@ -9,16 +9,16 @@ body{
     font-family: 'Roboto', sans-serif;
     background-color: #ffffff;
 }
-.container{
-    padding: 0;
+.labs14{
+    width: 1170px;
+    margin: auto;
     background-color: #EFEFEF;
 }
 img{
-    max-width: 100%;
+    width: 100%;
 }
 .grid-title{
     width: 1170px;
-    margin-left: -15px;
     font-size: 40px;
     color: #5AB6D8;
     background-color: #707070;
@@ -30,9 +30,6 @@ img{
     padding-left: 5%;
     padding-right: 5%;
     margin-top: 30px;
-}
-.col-md-4{
-    height:375px;
 }
 .item-main{
     float: left;
