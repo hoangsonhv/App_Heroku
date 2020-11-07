@@ -1,47 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="013275fe-2ca9-4c65-a534-653d7e8a3a78" name="Default Changelist" comment="son update">
-      <change afterPath="$PROJECT_DIR$/Bai8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tiên-sư.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment13.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baitap7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/Labs7.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/Tiên-sư.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/assignment13.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/baitap7.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/dongho.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/event.baitap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/event.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/jstiet1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/jstiet2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/jstiet2DOM.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/labs13.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dongho.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event.baitap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iconfntware.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/assignment13.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/dongho.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/event.baitap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/event.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/labs13.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jstest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jstiet1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jstiet2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jstiet2DOM.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labs13.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Webstorm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Webstorm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="013275fe-2ca9-4c65-a534-653d7e8a3a78" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Labs14.html" beforeDir="false" afterPath="$PROJECT_DIR$/Labs14.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Labs14.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Labs14.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../topcoder/.idea/shelf/Uncommitted_changes_before_Update_at_10_28_2020_4_20_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../topcoder/.idea/shelf/Uncommitted_changes_before_Update_at_10_28_2020_4_20_PM__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../topcoder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../topcoder/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../topcoder/css/home1.css" beforeDir="false" afterPath="$PROJECT_DIR$/../topcoder/css/home1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/Labs14.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Labs14.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,21 +127,7 @@
       <workItem from="1604474936465" duration="11000" />
       <workItem from="1604581290168" duration="13169000" />
       <workItem from="1604627792128" duration="9006000" />
-      <workItem from="1604752771699" duration="5007000" />
-    </task>
-    <task id="LOCAL-00040" summary="update">
-      <created>1602359561132</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1602359561132</updated>
-    </task>
-    <task id="LOCAL-00041" summary="update">
-      <created>1602359689277</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1602359689277</updated>
+      <workItem from="1604752771699" duration="9100000" />
     </task>
     <task id="LOCAL-00042" summary="update">
       <created>1602393196054</created>
@@ -509,7 +458,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604755506731</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="son update1111">
+      <created>1604758154861</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1604758154861</updated>
+    </task>
+    <task id="LOCAL-00090" summary="son update tiep">
+      <created>1604758411909</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1604758411909</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -524,7 +487,9 @@
     <MESSAGE value="son update tiên sư nó" />
     <MESSAGE value="son update" />
     <MESSAGE value="son update1" />
-    <option name="LAST_COMMIT_MESSAGE" value="son update1" />
+    <MESSAGE value="son update1111" />
+    <MESSAGE value="son update tiep" />
+    <option name="LAST_COMMIT_MESSAGE" value="son update tiep" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601773425405">
@@ -543,10 +508,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1604281241759" />
-    <state x="386" y="0" key="CommitChangelistDialog2" timestamp="1604755504502">
+    <state x="386" y="0" key="CommitChangelistDialog2" timestamp="1604758408668">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="386" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1604755504502" />
+    <state x="386" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1604758408668" />
     <state x="147" y="65" key="DiffContextDialog" timestamp="1602041182270">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -603,10 +568,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1515" height="253" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1602734512715" />
-    <state x="147" y="64" key="MergeDialog" timestamp="1603892529867">
+    <state x="176" y="67" key="MergeDialog" timestamp="1604758315812">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="147" y="64" key="MergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1603892529867" />
+    <state x="176" y="67" key="MergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1604758315812" />
     <state x="407" y="173" key="MultipleFileMergeDialog" timestamp="1604474675833">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -623,10 +588,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="254" height="198" key="ShowFilterAction_Filter_Popup/0.0.1536.824@0.0.1536.824" timestamp="1601730538403" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1604755510793">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1604758158144">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1604755510793" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1604758158144" />
     <state x="587" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603951432436">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
