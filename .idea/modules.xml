@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Webstorm.iml" filepath="$PROJECT_DIR$/.idea/Webstorm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../topcoder/.idea/topcoder.iml" filepath="$PROJECT_DIR$/../topcoder/.idea/topcoder.iml" />
     </modules>
   </component>
 </project>

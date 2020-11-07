@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#MAIN{
+    background-color: black;
+    width: 1535px;
+}
+
+#header-slider{
+    width: 1535px;
+    height: 450px;
+    position: relative;
+    margin: auto;
+    color: #242424;
+    background-color: white;
+    font-size: 14px;
+    line-height: 1.25;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    background-image: url('../img/b01.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+img{
+    width: 100%;
+}
+.top-header{
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid #777777;
+    padding-top: 20px;
+
+}
+.top-item{
+    margin: auto;
+    width: 1170px;
+    font-size: 15px;
+    color: white;
+}
+.top-left-item{
+    float: left;
+}
+.top-left-item1{
+    float: left;
+    margin-left: 20px;
+}
+.top-right-link{
+    float: right;
+}
+.top-right-link ul{
+    float: right;
+}
+.top-right-link li{
+    float: left;
+    list-style: none;
+    margin-left: 20px;
+}
+.item-1{
+    color: white;
+}
+.item-1 i:hover{
+    color: #337ab7;
+    -webkit-transform: scale(0.95);
+    -webkit-transition-duration: 0.5s;
+}
+.top-right-link .item-1{
+    font-size: 18px;
+}
+.logo-left{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+.logo-container{
+    width: 100%;
+    height: 100px;
+    padding-top: 40px;
+    float: left;
+}
+.menu-container{
+    width: 70%;
+    height: 100%;
+    float: right;
+    margin-top: 10px;
+}
+.menu-container ul{
+    float: left;
+    margin-left: 45px;
+}
+.menu-container li{
+    float: left;
+    font-size: 16px;
+    list-style: none;
+}
+.dropdown{
+    color: white;
+    margin-left: 15px;
+}
+.dropdown-1{
+    color: white;
+}
+.dropdown-1:hover{
+    color: #337ab7;
+}
+.dropdown-toggle{
+    text-decoration: none;
+    color: white;
+}
+.dropdown-toggle:hover{
+    color: #337ab7;
+}
+.a11{
+    cursor: pointer;
+}
+.dropdown-2{
+    float: right;
+    font-size: 15px;
+    color: white;
+    width: 130px;
+    margin-top: -10px;
+    padding: 10px;
+    background: #078fc4;
+}
+.dropdown-2:focus{
+    outline: none;
+}
+.dropdown-2:hover{
+    background-color: #1b6d85;
+}
+.h1-header{
+    width: 1170px;
+    height: 80px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 180px;
+    left: 200px;
+
+}
+.h1-header h1{
+    font-size: 60px;
+}
+.home{
+    position: absolute;
+    top: 260px;
+    left: 200px;
+    text-align: center;
+    color: white;
+    width: 1170px;
+    height: 80px;
+    padding-top: 30px;
+}
+.home a{
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.home a:hover{
+    color: #337ab7;
+}
+.home span{
+    margin-left: 10px;
+}
+.top-main{
+    width: 1170px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    margin-top: 140px;
+}
+.top-main ul{
+    margin-left: 200px;
+}
+.top-main li{
+    float: left;
+    list-style: none;
+    margin-left: 15px;
+}
+.nav_1-2{
+    float: left;
+}
+.top-main-1{
+    margin-top: 18px;
+}
+
+.icon{
+    margin-left: -35px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.icon li{
+    float: left;
+    list-style: none;
+    padding-left: 35px;
+}
+.icon ul li a {
+    text-decoration: none;
+    color: #f2f2f2;
+}
+.confirm {
+    width: 93%;
+    height: 50px;
+    background-color: #222222;
+    border: 1px solid #b9c2cb;
+    color: #b9c2cb;
+    margin-top: 30px;
+    font-size: 16px;
+}
+.confirm:hover{
+    color: #30A8D5;
+    background-color: #F1F1F1;
+}
+.end {
+    color: #F1F1F1;
+    text-align: center;
+    padding-top: 50px;
+    border-top: 1px solid #b9c2cb;
+    opacity: 0.5;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    list-style: none;
+    background-color: #ffffff;
+    line-height: 2;
+    font-size: 12px;
+    padding-top: 10px;
+    width: 130px;
+    height: auto;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+.dropdown1:hover {
+    background-color: #dfe5e9;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.nav-link:hover{
+    color: #30A8D5;
+}
+
+
+
+footer {
+    background-color: #222222;
+    width: 100%;
+    height: 600px;
+    margin-top: 200px;
+}
+.footer_1 {
+    margin-top: 100px;
+    height: 400px;
+    color: #ffffff;
+}
+.Footer_1 {
+    margin-top: 100px;
+    height: 400px;
+    color: #ffffff;
+    position: relative;
+    left: 80px;
+}
+.fOoter_1 {
+    margin-top: 100px;
+    height: 400px;
+    color: #ffffff;
+    position: relative;
+    left: 130px;
+}
+.foOter_1 {
+    margin-top: 100px;
+    height: 400px;
+    color: #ffffff;
+    position: relative;
+    left: 200px;
+}
+.footer_1-1 p{
+    opacity: 0.5;
+    margin-top: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #b9c2cb;
+    margin-bottom: 30px;
+}
+.footer_1-1 b{
+    font-size: 20px;
+}
+.footer_1-1 input{
+    margin-top: 30px;
+    width: 100%;
+    height: 50px;
+    background-color: #2A2E2F;
+    border: none;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.email_1:focus {
+    color: black;
+    background-color: #f2f2f2;
+    opacity: 0.5;
+}
+.footer_1-1 i {
+    float: right;
+    position: relative;
+    top: -33px;
+    left: -15px;
+    font-size: 18px;
+    opacity: 0.8;
+    color: #b9c2cb;
+}
+.footer_2 {
+    margin-top: 30px;
+}
+.footer_2 b{
+    font-size: 20px;
+}
+.footer_2 ul {
+    margin-top: 30px;
+}
+.footer_2 ul li{
+    list-style: none;
+    font-size: 14px;
+    line-height: 2;
+}
+.footer_2 ul li a{
+    text-decoration: none;
+    color: #f2f2f2;
+    opacity: 0.8;
+}
+.footer2:hover {
+    color: #E2B71C;
+}
+.footer_2-1:hover {
+    color: #30A8D5;
+}
+.footer_3 {
+    margin-top: 30px;
+    border-bottom: 1px solid #777777;
+    position: relative;
+}
+.footer_3 b{
+    font-size: 20px;
+}
+.footer_3 ul {
+    margin-top: 30px;
+}
+.footer_3 ul li{
+    list-style: none;
+    font-size: 14px;
+    line-height: 2;
+    color: silver;
+}
+.footer_3-1{
+    color: #b9c2cb;
+}
+.footer_3-1:hover{
+    color: #30A8D5;
+}
+.footer_3-2{
+    color: #ffffff;
+    font-size: 16px;
+}
+.footer_3-2:hover{
+    color: #30A8D5;
+}

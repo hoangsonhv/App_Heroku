@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row .col-md-3{
+    padding: 10px;
+    margin-left: -5px;
+}
+.row .aaa{
+    padding-left: 35px;
+}
+img{
+    max-width: 70%;
+    height: 60%;
+    padding-top: 50px;
+    cursor: pointer;
+}
+.row{
+    /*height: 850px;*/
+    padding-top: 50px;
+    background-color: #f3f3f3;
+}
+.item{
+    width: 100%;
+    height: 360px;
+    background-color: white;
+    border: 1px solid #f3f3f3;
+    border-radius: 4%;
+    box-shadow: 5px 5px 5px #e5dede;
+}
+.product-categories{
+    margin-top: -20px;
+}
+.product-categories h4{
+    font-weight: 600;
+    font-size: 20px;
+}
+.product-categories li{
+    margin-bottom: 20px;
+}
+.product-brands{
+    margin-top: 50px;
+}
+.product-brands h4{
+    font-weight: 600;
+    font-size: 20px;
+}
+.product-1{
+    margin-bottom: 20px;
+}
+.label-check{
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    user-select: none;
+}
+.label-check input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.check-lb{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: silver
+}
+.check-lb:after{
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.label-check input:checked ~ .check-lb {
+    background-color: #2196F3;
+}
+.label-check input:checked ~ .check-lb:after {
+    display: block;
+}
+
+.label-check .check-lb:after {
+    left: 9px;
+    top: 4px;
+    width: 7px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.item h2{
+    font-size: 15px;
+    font-weight: 600;
+}
+.item .add-to-cart{
+    margin-top: 10px;
+    float: left;
+    width: 85%;
+    color: black;
+    background-color:#f3f3f3;
+    padding: 5px 10px;
+    font-size: 15px;
+    text-decoration: none;
+    transition: background-color 300ms;
+    border-radius: 10px;
+    margin-left: calc((100% - 85%)/2);
+}
+.item .add-to-cart:hover{
+    background-color: #e5dede;
+}
+.star{
+    height: 25px;
+    width: 80%;
+    padding-top: 8px;
+    margin: auto;
+}
+.star p{
+    float: left;
+}
+.star .star-box{
+    float: right;
+}

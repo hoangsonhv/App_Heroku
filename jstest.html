@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script type="text/javascript">
+        // do{
+        //     var x = prompt("Vui long nhap so: ");
+        //     x = parseInt(x);
+        // }while (x<0 || x>99 || isNaN(x));
+        // console.log(x);
+        //     var luckynumber = parseInt(Math.random()*100);
+        //     luckynumber = parseInt(luckynumber);
+        //     if( x==luckynumber){
+        //         alert("chuc mung ban da trung thuong");
+        //     }
+
+
+        // do{
+        //     var ar = [];
+        //     for(let i=0;i<5;i++) {
+        //         ar[i] = parseInt(Math.random() * 100);
+        //         vietlot = parseInt(vietlot);
+        //         console.log(vietlot);
+        //     }
+        // }while (vietlot<0 || vietlot>99 || isNaN(vietlot));
+
+        var ar = [];
+        for(let i=0;i<5;i++){
+            let x;
+            do {
+                x = parseInt(Math.random()*100);
+            }while (ar.includes(x) || isNaN(x));
+            ar[i] = x;
+        }
+        console.log(ar);
+
+        var mynumber = [];
+        for( let i=0;i<5;i++){
+            let x;
+            do{
+                x = prompt("Nhap so may man: ");
+                x = parseInt(x);
+            }while (mynumber.includes(x) || isNaN(x));
+            mynumber[i] = x;
+        }
+
+        let sl = 0;
+        for(let i=0;i<5;i++){
+            if(ar.includes(mynumber[i]))
+                sl++;
+        }
+        if(sl==5){
+            alert("Chuc mung ban da trung vietlot !!");
+        }else{
+            alert("Ăn lol nhé GIANG !!")
+        }
+
+    </script>
+</body>
+</html>

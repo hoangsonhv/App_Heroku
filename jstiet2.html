@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script type="text/javascript">
+        function canhbao(){
+            // alert("canh bao nguy hiem");
+            console.log("canh bao nguy hiem");
+        }
+
+        // chay mot lan
+        // setTimeout(canhbao,3000);
+
+        // ham an danh
+        // setTimeout(function (){
+        //     alert("canh bao nguy hiem");
+        // },3000);
+
+        // chay vo han
+        // setInterval(canhbao,3000);
+
+
+        // thoi gian dem nguoc
+
+        var min=2, sec=0;
+
+        var clock = function () {
+            console.log(min+":"+sec);
+            sec--;
+            if(sec<0){
+                sec = 59;
+                min--;
+            }
+
+            if(min<0){
+                clearInterval(time);
+            }
+        }
+        var time = setInterval(clock,100);
+
+        // viet ham theo kieu arrow function
+        var tinhtong = (a,b)=>{
+            return a+b;
+        }
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS Tiet1</title>
+    <link rel="stylesheet" href="css/jstiet1.css">
+</head>
+<body>
+    <script type="text/javascript">
+        // khai bao bien
+        var x=10;
+        if(x>5){
+            let y=20;
+        }
+        let y=10;
+        let k;
+        k=10;
+        k="xin chao";
+        console.log("k="+k); //giong frintf trong C
+        const  c=25; //hang so
+        let ar =[];  // la 1 mang trong(chua co du lieu)
+        ar[0] = 12;
+        ar[1] = "hello";
+        ar[2] = [];
+        ar[1000] = 9;
+        ar[2][1] = "xinchao";
+        ar[2][0] = [];
+        ar[2][0][3] = 8;
+        console.log(ar);
+
+        var arr = [];
+        arr[0] = 10;
+        arr[1] = "anh son";
+        arr[2] = 15;
+
+        var arr2 = [];
+        arr[0] = [1,2,3,4];
+        arr[1] = [4,5,6,7];
+
+        // object
+        let ob = {};
+        ob.name = "le van nam";
+        ob.age = 20;
+        ob.birthday = '28/06/1997';
+        console.log(ob);
+
+        if(ob.age >=18){
+            console.log(ob.name+" da co the di tu");
+        }else{
+            console.log(ob.name+"chua di tu duoc");
+        }
+
+        var sv = [1,2,3,5,8,9];
+        for(let i=0;i<sv.length;i++){
+            console.log("SV - "+sv[i]);
+        }
+
+        function Tinhtong(a,b){
+            return a + b;
+        }
+        function hello(){
+            console.log("hello world");
+        }
+        var n = Tinhtong(5,3);
+
+        var p = prompt("vui long nhap ten cua em");
+        console.log(p);
+        var age = prompt("vui long nhap tuoi cua em");
+        age = parseInt(age);
+        console.log(age);
+
+
+        do{
+            var x = prompt("Vui long nhap so: ");
+        }while (x>=0 && x<=99){
+            console.log(x);
+        }
+
+    </script>
+</body>
+</html>

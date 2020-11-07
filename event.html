@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo event</title>
+    <script src="js/event.js"></script>
+    <link rel="stylesheet" href="css/event.css">
+</head>
+<body>
+    <div id="box" onmouseenter="hover1(this)" onmouseleave="hover2(this)"></div>
+    <button type="button" onclick="click1();">Click here</button>
+    <input type="text" name="UserName" placeholder="UserName...."
+           onkeydown="key1(this)"
+           onkeyup="key2(this)"
+           onkeypress="key3(this)"
+           oncopy = "cop1();"
+    />
+    <select name="city" onchange="change1(this)">
+        <option value="1">Valuae1</option>
+        <option value="2">Valuae2</option>
+        <option value="3">Valuae3</option>
+        <option value="4">Valuae4</option>
+        <option value="5">Valuae5</option>
+    </select>
+
+</body>
+</html>
