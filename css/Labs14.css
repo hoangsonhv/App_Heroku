@@ -14,6 +14,9 @@ body{
     margin: auto;
     background-color: #EFEFEF;
 }
+.col-md-4{
+    padding: 0;
+}
 img{
     max-width: 100%;
 }
@@ -26,15 +29,16 @@ img{
     padding-bottom: 35px;
     text-align: center;
 }
-.row{
-    padding-left: 5%;
-    padding-right: 5%;
-    margin-top: 30px;
+.item{
+    width: 1170px;
+    height: 1200px;
+    margin: 0;
+    padding: 50px;
 }
 .item-main{
     float: left;
-    width: 100%;
-    padding: 0px 15px 15px 15px;
+    width: 360px;
+    padding:15px;
 }
 .item-main h3{
     font-size: 20px;
