@@ -15,7 +15,7 @@ body{
     background-color: #EFEFEF;
 }
 img{
-    width: 100%;
+    max-width: 100%;
 }
 .grid-title{
     width: 1170px;
