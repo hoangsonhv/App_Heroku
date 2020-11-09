@@ -18,9 +18,6 @@ body{
 .col-md-4{
     padding: 0;
 }
-img{
-    max-width: 100%;
-}
 .grid-title{
     width: 1170px;
     height: 10%;
@@ -35,6 +32,10 @@ img{
     padding: 45px;
     height: 90%;
 }
+img{
+    max-width: 100%;
+}
+
 
 .item-main{
     float: left;
