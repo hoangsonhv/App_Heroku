@@ -2,11 +2,8 @@
 
 function item(items) {
     var g_html = "";
-
     for(var  i=0;i<items.length;i++) {
-
         g_html += "<div class=\"col-md-4\">\n" +
-
             "                    <div class=\"item-main text-center\">\n" +
             "                        <h3 class=\"item-name\">" + items[i].name + "</h3>\n" +
             "                        <img class=\"item-img\" src=\"" + items[i].image + "\"/>\n" +
@@ -14,7 +11,6 @@ function item(items) {
             "                    </div>\n" +
             "                </div>"
     }
-
     return g_html;
 }
 
