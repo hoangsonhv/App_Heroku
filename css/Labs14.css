@@ -15,9 +15,7 @@ body{
     margin: auto;
     background-color: #EFEFEF;
 }
-.col-md-4{
-    padding: 0;
-}
+
 .grid-title{
     width: 1170px;
     height: 10%;
@@ -28,15 +26,17 @@ body{
     padding-bottom: 35px;
     text-align: center;
 }
-#item-1{
+
+.item{
     padding: 45px;
     height: 90%;
+}
+.col-md-4{
+    padding: 0;
 }
 img{
     max-width: 100%;
 }
-
-
 .item-main{
     float: left;
     width: 360px;
