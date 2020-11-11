@@ -19,9 +19,10 @@
 }
 img{
     max-width: 70%;
-    height: 60%;
-    padding-top: 50px;
-    cursor: pointer;
+    height: 145px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
 }
 .row{
     /*height: 850px;*/
@@ -35,6 +36,100 @@ img{
     border: 1px solid #f3f3f3;
     border-radius: 4%;
     box-shadow: 5px 5px 5px #e5dede;
+    position: relative;
+}
+.star .star-box{
+    width: 80px;
+    height: 15px;
+}
+.col-md-3 .left-item{
+    width: 45px;
+    height: 30px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border-radius: 8px;
+    background-color: #008000;
+    color: white;
+    text-align: center;
+    padding-top: 6px;
+}
+.col-md-3 .left-item-1{
+    width: 45px;
+    height: 30px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border-radius: 8px;
+    background-color: #F6931C;
+    color: white;
+    text-align: center;
+    padding-top: 6px;
+}
+
+.col-md-3 .itemsicon{
+    width: 30px;
+    height: 40px;
+    float: right;
+    position: absolute;
+    top: 24px;
+    right: 22px;
+    padding-left: 10px;
+}
+.col-md-3 .icon1{
+    width: 20px;
+    height: 20px;
+    transition: 2s;
+}
+.col-md-3 .icon3{
+    width: 20px;
+    height: 20px;
+    transition: 1s;
+}
+.icon1:hover{
+    animation: icon1 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes icon1{
+    0% {
+        transform: scale(1.2);
+    }
+    25%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    75%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
+.icon3:hover{
+    animation: icon3 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes icon3{
+    0% {
+        transform: scale(1.2);
+    }
+    25%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    75%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
+.col-md-3 .itemsicon .bibi{
+    cursor: pointer;
 }
 .product-categories{
     margin-top: -20px;

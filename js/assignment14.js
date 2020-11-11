@@ -1,3 +1,5 @@
+
+
 function gridProduct(products) {
     var g_html = "";
     for (var i=0;i<products.length;i++){

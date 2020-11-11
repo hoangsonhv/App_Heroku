@@ -1,0 +1,718 @@
+Index: ../topcoder/css/home1.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- ../topcoder/css/home1.css	(date 1603876437058)
++++ ../topcoder/css/home1.css	(date 1603876437058)
+@@ -0,0 +1,253 @@
++
++.main-left-1{
++    width: 100%;
++    height: 340px;
++    float: left;
++}
++.main-left-img{
++    width: 40%;
++    margin-top: 15px;
++    float: left;
++    overflow: hidden;
++    display: block;
++
++}
++.anh-s{
++    width: 100%;
++    transition: all 1s;
++    overflow: hidden;
++}
++.anh-s:hover{
++    transform: scale(1.2);
++}
++
++.main-left-text{
++    width: 59%;
++    margin-top: 15px;
++    padding-left: 30px;
++    float: left;
++}
++.text-top{
++    font-size: 12px;
++    float: left;
++    text-align: center;
++    padding-top: 4px;
++    color: white;
++    width: 70px;
++    height: 25px;
++    background-color: #337ab7;
++    animation-name: text-top;
++    animation-duration: 3s;
++    animation-iteration-count: infinite;
++}
++.text-top a{
++    color: white;
++}
++.text-top a:hover{
++    color: #000000;
++}
++@keyframes text-top {
++    0%  {background-color: blue;}
++    50%  {background-color: red;}
++    70%  {background-color: brown;}
++    100% {background-color: yellowgreen;}
++}
++img{
++    max-height: 300px;
++    max-width: 300px;
++}
++.text-main{
++    float: left;
++    overflow: hidden;
++}
++.text-main a{
++    display:inline-block;
++}
++.text-main h3{
++    position: relative;
++
++}
++.text-main-a1{
++    text-decoration: none;
++    color: black;
++}
++.text-main-a1:hover{
++    color: orangered;
++}
++span::before{
++    position: relative;
++    top: 25px;
++    left: 0;
++    content: "";
++    width: 0%;
++    height: 2px;
++    display: block;
++    background-color: black;
++}
++span:hover:before{
++    background-repeat: no-repeat;
++    width: 100%;
++    transition: all 0.4s;
++}
++.text-main p{
++    font-size: 17px;
++    line-height: 1.8;
++}
++.ppp{
++    opacity: 0.6;
++}
++
++.post-block:hover .hover-line a {
++    background-size: 100% 2px
++}
++
++.author-details-block .post-block:hover .hover-line a {
++    background-size: 0 2px
++}
++
++.author-details-block .hover-line:hover a {
++    background-size: 100% 2px!important
++}
++
++.hover-line a {
++    position: relative;
++    display: inline;
++    background-image: -webkit-gradient(linear, left top, right top, from(currentColor), to(currentColor));
++    background-image: -webkit-linear-gradient(left, currentColor 0%, currentColor 100%);
++    background-image: -o-linear-gradient(left, currentColor 0%, currentColor 100%);
++    background-image: linear-gradient(to right, currentColor 0%, currentColor 100%);
++    background-size: 0 2px;
++    background-position: 0 95%;
++    -webkit-transition: background-size 0.25s cubic-bezier(.785, .135, .15, .86) 0s;
++    -o-transition: background-size 0.25s cubic-bezier(.785, .135, .15, .86) 0s;
++    transition: background-size 0.25s cubic-bezier(.785, .135, .15, .86) 0s;
++    padding: .1% 0;
++    background-repeat: no-repeat;
++    color: inherit
++}
++
++.hover-line a:hover {
++    background-size: 100% 2px
++}
++
++.axil-img-container:hover .hover-line a {
++    background-size: 100% 2px
++}
++
++.axil-team-block:hover .hover-line a {
++    background-size: 100% 2px
++}
++
++@media screen and (min-width:0 \0) {
++    .axil-latest-post .post-block {
++        display: block
++    }
++    .subscribe-popup .section-title {
++        display: block
++    }
++    .bg-grey-dark-one .hover-line a,
++    .media-caption .hover-line a,
++    .axil-img-container .hover-line a,
++    .banner-home__with-post .banner-left-content .hover-line a {
++        color: var(--color-white);
++        background-image: -webkit-gradient(linear, left top, right top, from(var(--color-white)), to(var(--color-white)));
++        background-image: -webkit-linear-gradient(left, var(--color-white) 0%, var(--color-white) 100%);
++        background-image: -o-linear-gradient(left, var(--color-white) 0%, var(--color-white) 100%);
++        background-image: linear-gradient(to right, var(--color-white) 0%, var(--color-white) 100%)
++    }
++    .hover-line a {
++        color: var(--grey-dark-one)
++    }
++    .video-container__type-2 .axil-img-container .media-body {
++        display: block!important
++    }
++    .axil-img-container.flex-height-container .media-body {
++        display: block!important;
++        position: absolute;
++        left: 0;
++        top: 440px
++    }
++    .axil-banner-cat-counter .axil-content::before {
++        content: "";
++        background: url(https://review.food.com.vn/wp-content/themes/dichvuweb/assets/css/../images/ie-blur-shadow.png);
++        background-size: 100% 100%;
++        background-position: center center;
++        bottom: -5rem
++    }
++}
++
++.related-post{
++    margin: auto;
++    /*float: left;*/
++}
++.related-post-top{
++    margin-top: 20px;
++    padding-left: 15px;
++    height: 70px;
++    width: 100%;
++}
++.related-post-top h2{
++    width: 30%;
++    margin-top: -5px;
++    float: left;
++}
++.related-post-top a{
++    width: 70%;
++    margin-left: 650px;
++    color: black;
++}
++.related-post-top a:hover{
++    color: #2aabd2;
++}
++.related-post-main{
++    height: 400px;
++}
++.related-post-main-img{
++    overflow: hidden;
++    position: relative;
++    z-index: 0;
++}
++.col-md-4{
++    width: 250px;
++    margin-left: 30px;
++    overflow: hidden;
++    padding: 0;
++}
++.anh-son{
++    transition: all 0.5s;
++    overflow: hidden;
++}
++.anh-son:hover{
++    transform: scale(1.1);
++
++}
++
++.text-a{
++    text-decoration: none;
++    display: block;
++    width: 100%;
++}
++.related-post-main-text{
++    z-index: 5;
++    padding: 20px;
++    font-size: 15px;
++    position: absolute;
++    top: 50%;
++    width: 100%;
++    height: 50%;
++}
++.related-post-main-text h3{
++    height: 80%;
++    margin-top: -10px;
++    line-height: 1.3;
++    font-size: 20px;
++}
++.related-post-main-text a{
++    text-decoration: none;
++}
++.text-main-a2{
++    color: white;
++}
++.related-post-main-text .text-main-a2:hover{
++    color: orangered;
++}
+Index: ../topcoder/son.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- ../topcoder/son.html	(date 1603429286001)
++++ ../topcoder/son.html	(date 1603429286001)
+@@ -0,0 +1,82 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <title>son</title>
++    <link rel="stylesheet" href="css/son.css">
++    <link rel="stylesheet" href="libs/bootstrap.3.4.1/css/bootstrap.css">
++    <link rel="stylesheet" href="libs/fontawesome5.15.1/css/all.css">
++</head>
++<body>
++    <div class="main-s">
++        <div class="header-left">
++            <div class="cooking">
++                <p><a href="#" style="text-decoration: none"><b>COOKING TIPS</b></a></p>
++            </div>
++            <div class="cooking-bot">
++                <div class="img-cooking-bot">
++                    <a href="#">
++                        <img src="image/cooking-bot.jpg" style="width: 300px;height: 280px">
++                    </a>
++                </div>
++                <div class="text-cooking-bot">
++                   <div class="text">
++                       <p class="how"><b><a href="#" style="text-decoration: none">How To Use Knife in The Kitchen</a></b></p>
++                   </div>
++                    <div class="month">
++                        <div class="clook">
++                            <i class="far fa-clock"></i>
++                            <span>September 6, 2017</span>
++                        </div>
++                        <div class="cmt">
++                            <a href="#" style="text-decoration: none"><i class="far fa-comment-alt"></i> 0</a>
++                        </div>
++                    </div>
++                </div>
++            </div>
++            <div class="cooking-bot-1">
++                <div class="img-cooking-bot-1">
++                    <a href="#">
++                        <img src="image/cooking-bot.jpg" style="width: 120px;height: 130px">
++                    </a>
++                </div>
++                <div class="text-cooking-bot-1">
++                    <div class="text-1">
++                        <p class="how-1"><b><a href="#" style="text-decoration: none">How To Use Knife in The Kitchen</a></b></p>
++                    </div>
++                    <div class="month-1">
++                        <div class="clook-1">
++                            <i class="far fa-clock"></i>
++                            <span>September 6, 2017</span>
++                        </div>
++                    </div>
++                </div>
++            </div>
++            <div class="cooking-bot-1">
++                <div class="img-cooking-bot-1">
++                    <a href="#">
++                        <img src="image/cooking-bot.jpg" style="width: 120px;height: 130px">
++                    </a>
++                </div>
++                <div class="text-cooking-bot-1">
++                    <div class="text-1">
++                        <p class="how-1"><b><a href="#" style="text-decoration: none">How To Use Knife in The Kitchen</a></b></p>
++                    </div>
++                    <div class="month-1">
++                        <div class="clook-1">
++                            <i class="far fa-clock"></i>
++                            <span>September 6, 2017</span>
++                        </div>
++                    </div>
++                </div>
++            </div>
++            <div></div>
++        </div>
++        <div class="header-right">
++            <div class="tea">
++
++            </div>
++        </div>
++    </div>
++</body>
++</html>
+\ No newline at end of file
+Index: ../topcoder/huy.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- ../topcoder/huy.html	(date 1603800549069)
++++ ../topcoder/huy.html	(date 1603800549069)
+@@ -0,0 +1,10 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <title>Title</title>
++</head>
++<body>
++
++</body>
++</html>
+\ No newline at end of file
+Index: ../topcoder/home1.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <title>Title</title>\r\n</head>\r\n<body>\r\n    <h1>Giang ăn cu</h1>\r\n</body>\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- ../topcoder/home1.html	(revision e26bb21b69f8b36ba39289b4d7019e688d8b320c)
++++ ../topcoder/home1.html	(date 1603876426519)
+@@ -2,9 +2,223 @@
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+-    <title>Title</title>
++    <title>Project</title>
++    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet"/>
++    <link rel="stylesheet" href="css/styles.css">
++    <link rel="stylesheet" href="css/Huy.css">
++    <link rel="stylesheet" href="libs/bootstrap.3.4.1/css/bootstrap.css">
++    <link rel="stylesheet" href="libs/fontawesome-free-5.15.1/css/all.css">
++    <<<<<<< HEAD
++    <link rel="stylesheet" href="css/son.css">
++    =======
++    <script src="js/huy.js"></script>
++    >>>>>>> origin/master
+ </head>
+ <body>
+-    <h1>Giang ăn cu</h1>
++<div class="page">
++    <header class="section header">
++        <div id="header"></div>
++        <div id="recent_news_wrapper"></div>
++    </header>
++    <div class="main">
++        <div class="features">
++
++        </div>
++        <div class="top-stories">
++
++        </div>
++        <div class="trending">
++
++        </div>
++        <div class="video-post">
++
++        </div>
++        <div class="section-post">
++            <div class="container">
++                <div class="col-md-8">
++                    <div class="main-left-1">
++                        <div class="main-left-img">
++                            <a href="#">
++                                <img class="anh-s" src="img/s1.png" height="300" width="300"/>
++                            </a>
++                        </div>
++                        <div class="main-left-text">
++                            <div class="text-top">
++                                <a href="#" style="text-decoration: none">Mẹo Vặt</a>
++                            </div>
++                            <div class="text-main">
++                                <h3 class="hover-line"><a href="#" class="text-main-a" style="text-decoration: none">Mẹo vặt với rượu, các bà nội trợ đã biết chưa?</a></h3><br/>
++                                <p>Rượu là một loại đồ uống quen thuộc với cánh mày râu. Không chỉ có tác dụng tốt trong việc “giải sầu”, rượu còn c ó nhiều tác dụng bất ngờ...</p>
++                                <p class="ppp">By <a href="#" style="text-decoration: none" class="text-main-a1">Kiều Oanh</a></p>
++                            </div>
++                        </div>
++                    </div>
++                    <div class="main-left-1">
++                        <div class="main-left-img">
++                            <a href="#">
++                                <img class="anh-s" src="img/s2.jpg" height="300" width="300"/>
++                            </a>
++                        </div>
++                        <div class="main-left-text">
++                            <div class="text-top">
++                                <a href="#" style="text-decoration: none">Review</a>
++                            </div>
++                            <div class="text-main">
++                                <h3 class="hover-line"><a href="#" class="text-main-a" style="text-decoration: none">Đột kích quán Hotdog có anh chủ là người Hàn Quốc đẹp trai</a></h3><br/>
++                                <p>Tiêu chí để đánh giá chất lượng món ăn của bạn là gì? Đồ ăn ngon miệng, phục vụ thân thiện hay không gian sạch đẹp? Nếu tiêu chí của...</p>
++                                <p class="ppp">By <a href="#" style="text-decoration: none" class="text-main-a1">Kiều Oanh</a></p>
++                            </div>
++                        </div>
++                    </div>
++                    <div class="main-left-1">
++                        <div class="main-left-img">
++                            <a href="#">
++                                <img class="anh-s" src="img/s3.jpg" height="300" width="300"/>
++                            </a>
++                        </div>
++                        <div class="main-left-text">
++                            <div class="text-top">
++                                <a href="#" style="text-decoration: none">Mẹo Vặt</a>
++                            </div>
++                            <div class="text-main">
++                                <h3 class="hover-line"><a href="#" class="text-main-a" style="text-decoration: none">Khám phá công dụng kỳ diệu của nước vo gạo</a></h3><br/>
++                                <p>Nước vo gạo đã quá quen thuộc với mọi gia đình. Thông thường khi nấu cơm, nước vo gạo sẽ bị bỏ đi mà không ai biết được những tác dụng...</p>
++                                <p class="ppp">By <a href="#" style="text-decoration: none" class="text-main-a1">Kiều Oanh</a></p>
++                            </div>
++                        </div>
++                    </div>
++                    <div class="main-left-1">
++                        <div class="main-left-img">
++                            <a href="#">
++                                <img class="anh-s" src="img/s4.jpg" height="300" width="300"/>
++                            </a>
++                        </div>
++                        <div class="main-left-text">
++                            <div class="text-top">
++                                <a href="#" style="text-decoration: none">Bí Quyết</a>
++                            </div>
++                            <div class="text-main">
++                                <h3 class="hover-line"><a href="#" class="text-main-a" style="text-decoration: none">Lột xác với mật ong chỉ sau một đêm</a></h3><br/>
++                                <p>Làm đẹp bằng nguyên liệu tự nhiên là phương pháp được chị em ưu tiên hàng đầu. Trong đó, mật ong là một trong những nguyên liệu từ thiên nhiên...</p>
++                                <p class="ppp">By <a href="#" style="text-decoration: none" class="text-main-a1" >Kiều Oanh</a></p>
++                            </div>
++                        </div>
++                    </div>
++                    <div class="main-left-1">
++                        <div class="main-left-img">
++                            <a href="#">
++                                <img class="anh-s" src="img/s5.jpg" height="300" width="300"/>
++                            </a>
++                        </div>
++                        <div class="main-left-text">
++                            <div class="text-top">
++                                <a href="#" style="text-decoration: none">Tự Nhiên</a>
++                            </div>
++                            <div class="text-main">
++                                <h3 class="hover-line"><a href="#" class="text-main-a" style="text-decoration: none">Mở Spa tại nhà với những cách làm đẹp đơn giản từ Nha đam</a></h3><br/>
++                                <p>Nha đam được biết đến như một thần dược làm đẹp của chị em phụ nữ. Có quá nhiều lời đồn thổi về công dụng tuyệt vời của nha đam....</p>
++                                <p class="ppp">By <a href="#" style="text-decoration: none" class="text-main-a1" >Kiều Oanh</a></p>
++                            </div>
++                        </div>
++                    </div>
++                    <div class="main-left-1">
++                        <div class="main-left-img">
++                            <a href="#">
++                                <img class="anh-s" src="img/s6.jpg" height="300" width="300"/>
++                            </a>
++                        </div>
++                        <div class="main-left-text">
++                            <div class="text-top">
++                                <a href="#" style="text-decoration: none">Khám Phá</a>
++                            </div>
++                            <div class="text-main">
++                                <h3 class="hover-line"><a href="#" class="text-main-a" style="text-decoration: none">Những món phải thử khi đi du lịch Huế</a></h3><br/>
++                                <p>Huế là một địa danh nổi tiếng không chỉ bởi nhiều danh lam thắng cảnh hay di tích lịch sử mà còn nổi tiếng bởi vô vàn những món ăn...</p>
++                                <p class="ppp">By <a href="#" style="text-decoration: none" class="text-main-a1">Kiều Oanh</a></p>
++                            </div>
++                        </div>
++                    </div>
++                </div>
++                <div class="col-md-4">
++
++                </div>
++            </div>
++        </div>
++        <div class="related-post container">
++            <div class="related-post-top">
++                <h2><b>Food & Drink</b></h2>
++                <a href="#"><b>ALL FOOD & DRINK</b></a>
++            </div>
++            <div class="related-post-main">
++                <div class="col-lg-3 col-md-4 ">
++                    <div class="related-post-main-img anh-son">
++                        <a href="###" class="text-a ">
++                            <img src="img/s4.jpg" style="width: 100%">
++                        </a>
++                        <div class="related-post-main-text">
++                            <h3 class="hover-line " style="color: white">
++                                <a href="#" class="text-main-a" style="text-decoration: none">
++                                    <b>Lột xác với mật ong chỉ sau một đêm</b>
++                                </a>
++                            </h3>
++                            <div class="ppp" style="color: white">By <a href="#" class="text-main-a2">Kiều Oanh</a></div>
++                        </div>
++                    </div>
++                </div>
++                <div class="col-lg-3 col-md-4 ">
++                    <div class="related-post-main-img anh-son">
++                        <a href="###" class="text-a">
++                            <img src="img/s5.jpg" style="width: 100%">
++                        </a>
++                        <div class="related-post-main-text">
++                            <h3 class="hover-line text-main-aa" style="color: white">
++                                <a href="#" class="text-main-aa" style="text-decoration: none">
++                                    <b>Mở Spa tại nhà với những cách làm đẹp đơn giản từ Nha đam</b>
++                                </a>
++                            </h3>
++                            <div class="ppp" style="color: white">By <a href="#" class="text-main-a2">Kiều Oanh</a></div>
++                        </div>
++                    </div>
++                </div>
++                <div class="col-lg-3 col-md-4 ">
++                    <div class="related-post-main-img anh-son">
++                        <a href="###" class="text-a ">
++                            <img src="img/s7.jpg" style="width: 100%">
++                        </a>
++                        <div class="related-post-main-text">
++                            <h3 class="hover-line " style="color: white">
++                                <a href="#" class="text-main-a" style="text-decoration: none">
++                                    <b>Top 10 thực phẩm càng ăn càng đẹp da</b>
++                                </a>
++                            </h3>
++                            <div class="ppp" style="color: white">By <a href="#" class="text-main-a2">Kiều Oanh</a></div>
++                        </div>
++                    </div>
++                </div>
++                <div class="col-lg-3 col-md-4 ">
++                    <div class="related-post-main-img anh-son">
++                        <a href="###" class="text-a ">
++                            <img src="img/s8.jpg" style="width: 100%">
++                        </a>
++                        <div class="related-post-main-text">
++                            <h3 class="hover-line " style="color: white">
++                                <a href="#" class="text-main-a" style="text-decoration: none">
++                                    <b>Ăn ngon, đẹp dáng với phương pháp Eat Clean</b>
++                                </a>
++                            </h3>
++                            <div class="ppp" style="color: white">By <a href="#" class="text-main-a2">Kiều Oanh</a></div>
++                        </div>
++                    </div>
++                </div>
++            </div>
++        </div>
++    </div>
++    <footer class="section footer">
++
++    </footer>
++</div>
++
++<script type="text/javascript" src="js/header.js"></script>
++<script type="text/javascript" src="js/recent-news-wrapper.js"></script>
+ </body>
+ </html>
+\ No newline at end of file
+Index: ../topcoder/css/son.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- ../topcoder/css/son.css	(date 1603429089625)
++++ ../topcoder/css/son.css	(date 1603429089625)
+@@ -0,0 +1,101 @@
++body{
++    background-color: #777777;
++}
++.main-s{
++    width: 90%;
++    margin: auto;
++}
++.header-left{
++    width: 25%;
++    padding: 20px;
++    background-color: whitesmoke;
++}
++.cooking{
++    width: 50%;
++    height: 40px;
++    text-align: center;
++    padding-top: 10px;
++    margin-top: -20px;
++    font-size: 15px;
++    background-color: orangered;
++}
++.cooking a{
++    color: white;
++}
++.cooking a:hover{
++    color: white;
++}
++.cooking-bot{
++    margin-top: 20px;
++    height: 405px;
++    border-bottom: 1px solid #ccc2c2b3;
++}
++.text-cooking-bot{
++    width: 80%;
++    margin-top: 20px;
++}
++.text{
++    font-size: 20px;
++}
++.how a{
++    color: black;
++}
++.how a:hover{
++    color: orangered;
++}
++.month{
++    width: 100%;
++    float: left;
++    opacity: 0.6;
++}
++.month a{
++    color: black;
++    opacity: 0.6;
++}
++.clook{
++    float: left;
++}
++.cmt{
++    float: right;
++    margin-right: 65px;
++}
++.cmt a:hover{
++    color: orangered;
++}
++
++
++.img-cooking-bot-1{
++    float: left;
++    width: 40%;
++}
++.cooking-bot-1{
++    margin-top: 20px;
++    height: 150px;
++    border-bottom: 1px solid #ccc2c2b3;
++}
++.text-cooking-bot-1{
++    width: 52%;
++    float: right;
++}
++.text-1{
++    font-size: 14px;
++}
++.how-1 a{
++    color: black;
++}
++.how-1 a:hover{
++    color: orangered;
++}
++.month-1{
++    width: 100%;
++    float: left;
++    opacity: 0.6;
++    font-size: 12px;
++}
++.month-1 a{
++    color: black;
++    opacity: 0.6;
++}
++.clook-1{
++    float: left;
++}
+diff --git ../topcoder/css/huy.cs ../topcoder/css/huy.cs
+new file mode 100644
