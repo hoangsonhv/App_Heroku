@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="013275fe-2ca9-4c65-a534-653d7e8a3a78" name="Default Changelist" comment="">
+    <list default="true" id="013275fe-2ca9-4c65-a534-653d7e8a3a78" name="Default Changelist" comment="Labs13">
       <change afterPath="$PROJECT_DIR$/app1.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/java.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/Labs13_1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assignment13.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignment13.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/assignment13.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/assignment13.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/labs13.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/labs13.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/assignment13.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/assignment13.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/assignment14.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/assignment14.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/labs13.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/labs13.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/labs13.html" beforeDir="false" afterPath="$PROJECT_DIR$/labs13.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -141,21 +140,7 @@
       <workItem from="1604928265855" duration="2298000" />
       <workItem from="1604969320707" duration="8342000" />
       <workItem from="1605058181423" duration="11000" />
-      <workItem from="1605066359058" duration="605000" />
-    </task>
-    <task id="LOCAL-00048" summary="update">
-      <created>1602397867460</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1602397867460</updated>
-    </task>
-    <task id="LOCAL-00049" summary="update">
-      <created>1602397987307</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1602397987307</updated>
+      <workItem from="1605066359058" duration="2055000" />
     </task>
     <task id="LOCAL-00050" summary="update">
       <created>1602399794002</created>
@@ -486,7 +471,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604925236989</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="Labs13">
+      <created>1605067062504</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1605067062505</updated>
+    </task>
+    <task id="LOCAL-00098" summary="Labs13">
+      <created>1605067466442</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1605067466442</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -506,7 +505,8 @@
     <MESSAGE value="update labs14" />
     <MESSAGE value="update labs" />
     <MESSAGE value="ssss" />
-    <option name="LAST_COMMIT_MESSAGE" value="ssss" />
+    <MESSAGE value="Labs13" />
+    <option name="LAST_COMMIT_MESSAGE" value="Labs13" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601773425405">
@@ -525,10 +525,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1604281241759" />
-    <state x="386" y="0" key="CommitChangelistDialog2" timestamp="1604925235622">
+    <state x="386" y="0" key="CommitChangelistDialog2" timestamp="1605067465134">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="386" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1604925235622" />
+    <state x="386" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1605067465134" />
     <state x="147" y="65" key="DiffContextDialog" timestamp="1602041182270">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -605,10 +605,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="254" height="198" key="ShowFilterAction_Filter_Popup/0.0.1536.824@0.0.1536.824" timestamp="1601730538403" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1604925245576">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605067470555">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1604925245576" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605067470555" />
     <state x="587" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603951432436">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
