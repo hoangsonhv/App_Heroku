@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#main{
+    background-color: #0000A4;
+}
+header{
+    width: 900px;
+    margin: auto;
+    font-family: Verdana;
+    color: #CEEAEE;
+    font-size:16px;
+}
+.header{
+    padding-top: 30px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.header ul{
+    list-style: none;
+    margin-left: 40px;
+}
+.header li{
+    float: left;
+    margin-right: 50px;
+}
+.banner{
+    width: 900px;
+    padding: 10px;
+    margin: auto;
+    background-color: #ffffff;
+    distance: 10px;
+    position: relative;
+}
+.banner img{
+    width: 100%;
+}
+.text{
+    width: 300px;
+    height: 40px;
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    font-size: 30px;
+    color: white;
+}
+.text-1{
+    margin-top: 10px;
+    width: 320px;
+    height: 40px;
+    position: absolute;
+    top: 80px;
+    left: 75px;
+    font-size: 14px;
+    color: white;
+    opacity: 0.6;
+    word-spacing: 5px;
+}
+.main-content{
+    width: 900px;
+    margin: auto;
+    background-color: #FFFFFF;
+    padding: 30px 25px;
+}
+.top-text{
+    height: 200px;
+    margin-bottom: 35px;
+}
+.top-text-1{
+    height: 160px;
+}
+.top-text-1 .text-img{
+    height: 100%;
+    width: 24%;
+    float: left;
+}
+.top-text-1 h2{
+    font-family: Verdana;
+    color: #000000;
+    font-size:16px;
+}
+.top-text-1 p{
+    font-family: Verdana;
+    color: #000000;
+    font-size:13px;
+    text-align: justify;
+    word-spacing: 5px;
+    line-height: 2.5;
+}
+.top-text-1 .text-text{
+    margin-top: -2px;
+    width: 75%;
+    float: right;
+    margin-top: -9px;
+}
+.main-text{
+    height: 200px;
+    margin-bottom: 35px;
+}
+.top-text-2 .text-img{
+    height: 100%;
+    width: 24%;
+    float: right;
+}
+.top-text-2 p{
+    font-family: Verdana;
+    color: #000000;
+    font-size:13px;
+    text-align: justify;
+    word-spacing: 5px;
+    line-height: 2.5;
+}
+.top-text-2 .text-text-2{
+    margin-top: -2px;
+    width: 75%;
+    float: left;
+    margin-top: -9px;
+}
+footer{
+    width: 900px;
+    margin: auto;
+}
+footer img{
+    width: 100%;
+    opacity: 0.5;
+}
