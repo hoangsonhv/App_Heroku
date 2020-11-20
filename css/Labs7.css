@@ -175,8 +175,8 @@ img{
 }
 #main-conten{
     width: 1170px;
-    height: 1200px;
-    margin: auto;;
+    height: 300px;
+    margin: auto;
 }
 .top-main{
     width: 850px;
@@ -267,9 +267,106 @@ img{
     height: 80%;
 }
 
+.item-body{
+    background-color: #ffffff;
+    box-shadow: 0 0 5px #aaaaaa;
+    float: left;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.section_1 {
+    margin-top: 30px;
+}
+.section_1 a{
+    font-size: 20px;
+    color: black;
+}
+.section_1 span{
+    float: right;
+    font-size: 18px;
+    opacity: 0.8;
+}
+.section_1 span b {
+    font-size: 23px;
+    color: #30A8D5;
+}
+.section_2 {
+    border-top: 1.5px solid #dfe5e9;
+    margin-top: 20px;
+    opacity: 0.8;
+}
+.section_2 p {
+    font-size: 13.5px;
+    padding-top: 20px;
+    list-style: 1.25;
+}
+.section_3-1{
+    font-size: 23px;
+    width: 100%;
+    font-weight:500;
+    text-align: center;
+    background-color: #F1F1F1;
+    margin-top: 10px;
+    padding: 20px;
+    cursor: pointer;
+    color: black;
+    border: none;
+}
+.item-body:hover .section_3-1{
+    color: #ffffff;
+    background-color: #30A8D5;
+}
+.section_4 {
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+}
+.section_4 img {
+    height: 40px;
+    width:  40px;
+    border-radius: 100%;
+    position: relative;
+    top: -430px;
+    left: 280px;
+    cursor: pointer;
+}
+.item-body:hover .section_4 {
+    opacity: 1;
+}
 
+.container2_1 {
+    width: 10%;
+    margin: 0 auto;
+}
 
+.container2_1-1 {
+    float: left;
+    padding: 15px;
+    margin-top: 40px;
 
+    list-style: none;
+    text-decoration: none;
+    margin-left: 5px;
+    background-color: #ffffff;
+    border: 1px solid #dfe5e9;
+    color: black;
+}
+.container2_1-2 {
+    float: left;
+    padding: 15px;
+    margin-top: 40px;
+
+    list-style: none;
+    text-decoration: none;
+    margin-left: 5px;
+    background-color: #E2B71C;
+    border: 1px solid #dfe5e9;
+    color: #ffffff;
+}
+.container2_1-1:hover{
+    background-color: #E2B71C;
+    color: #ffffff;
+}
 footer {
     background-color: #222222;
     width: 100%;
